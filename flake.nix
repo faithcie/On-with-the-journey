@@ -19,7 +19,7 @@
         ];
         shellHook = ''
           echo "Fiat Nix!"
-          vim ./C
+          cd ./C
         '';
       };
     };
