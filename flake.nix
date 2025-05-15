@@ -25,6 +25,7 @@
         nativeBuildInputs = with pkgs; [
           cargo
           rustc
+          rustfmt
         ];
         shellHook = ''
           echo "Fiat Nix!"
