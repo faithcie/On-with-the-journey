@@ -10,16 +10,25 @@
     pkgs = nixpkgs.legacyPackages.x86_64-linux;
   in {
 
-    devShells."x86_64-linux" = {
+    devShells."${pkgs.stdenv.hostPlatform.system}" = {
       "C" = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
           git
           gcc
-          cmake
         ];
         shellHook = ''
           echo "Fiat Nix!"
           cd ./C
+        '';
+      };
+      "Rust" = pkgs.mkShell {
+        nativeBuildInputs = with pkgs; [
+          cargo
+          rustc
+        ];
+        shellHook = ''
+          echo "Fiat Nix!"
+          cd ./Rust
         '';
       };
     };
