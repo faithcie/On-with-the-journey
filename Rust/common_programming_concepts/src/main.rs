@@ -78,4 +78,10 @@ fn main() {
     let element = arr[index];
 
     println!("The value of the element at index {index} is: {element}");
+
+    another_function();
+}
+
+fn another_function() {
+    println!("Hello from the other side");
 }
