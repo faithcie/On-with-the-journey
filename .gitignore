@@ -3,3 +3,6 @@ a.out
 
 # For Rust's output
 target/
+
+# For Zola
+public/

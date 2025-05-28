@@ -36,6 +36,15 @@
             cd ./Rust
           '';
         };
+        "Zola" = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            Zola
+          ];
+          shellHook = ''
+            echo "Fiat Nix!"
+            cd ./Zola
+          '';
+        };
       };
 
     };
