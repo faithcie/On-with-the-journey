@@ -1,0 +1,5 @@
+# For C's output
+a.out
+
+# For Rust's output
+target/
