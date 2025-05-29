@@ -38,7 +38,7 @@
         };
         "Zola" = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
-            Zola
+            zola
           ];
           shellHook = ''
             echo "Fiat Nix!"
