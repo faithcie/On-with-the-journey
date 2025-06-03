@@ -5,4 +5,4 @@ a.out
 target/
 
 # For Zola
-public/
+# public/
