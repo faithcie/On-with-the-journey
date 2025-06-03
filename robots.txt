@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://solhvemjsun.github.io/On-with-the-journey/sitemap.xml
