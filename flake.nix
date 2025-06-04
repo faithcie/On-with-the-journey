@@ -36,6 +36,15 @@
             cd ./Rust
           '';
         };
+        "JavaScript" = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            nodejs
+          ];
+          shellHook = ''
+            echo "Fiat Nix!"
+            cd ./JavaScript
+          '';
+        };
         "Zola" = pkgs.mkShell {
           nativeBuildInputs = with pkgs; [
             zola
