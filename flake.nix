@@ -54,6 +54,16 @@
             cd ./Zola
           '';
         };
+        "SQL" = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            sqls
+            sql-formatter
+          ];
+          shellHook = ''
+            echo "Fiat Nix!"
+            cd ./SQL
+          '';
+        };
       };
 
     };
