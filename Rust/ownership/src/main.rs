@@ -1,4 +1,8 @@
 fn main() {
-    let s = "hello";
-    println!("{s}");
+    let stringvar = "hello";
+    {
+        let stringvar = "world";
+        println!("{stringvar}");
+    }
+    println!("{stringvar}");
 }
