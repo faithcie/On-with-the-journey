@@ -65,7 +65,7 @@ INSERT INTO Students (student_id, first_name, middle_name, last_name, email, maj
 ('29554222', 'Mirror', Null, 'Mi', 'ruotongm@uci.edu', 'PHRMSCI'),
 ('39623986', 'Gor', 'Vagramovich', 'Mirzoyan', 'gmirzoya@uci.edu', 'BIO SCI'),
 ('45514207', 'Sanjna', 'Pai', 'Mizar', 'smizar@uci.edu', 'ENGR BMP'),
-('42001567', 'Nishka', 'Sagar', 'Modi', 'modins@uci.edu', 'P H SCI')
+('42001567', 'Nishka', 'Sagar', 'Modi', 'modins@uci.edu', 'P H SCI'),
 ('91232954', 'Ahn', 'Minh Anh', 'Nguyen', 'amnguye7@uci.edu', 'ENGR BMP'),
 ('32162312', 'Claudia', Null, 'Nguyen', 'ducan1@uci.edu', 'NEURBIO'),
 ('31644784', 'Collins', 'Duc', 'Nguyen', 'collindn@uci.edu', 'BIO SCI'),
